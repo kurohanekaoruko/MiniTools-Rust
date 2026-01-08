@@ -1,7 +1,15 @@
 [package]
 name = "MiniTools-Rust"
 version = "0.0.0"
-edition = "2021"
+edition = "2024"
+
+[[bin]]
+name = "text_to_bin"
+path = "src/Text_To_Bin.rs"
+
+[[bin]]
+name = "timestamp"
+path = "src/TimeStamp.rs"
 
 [dependencies]
-
+chrono = "0.4"
